@@ -404,6 +404,10 @@ describe('Node-cli-demo', function(){
 - https://github.com/wycats/handlebars.js（模板）
 - https://github.com/lorenwest/node-config (配置)
 
+cli参考
+
+- https://github.com/substack/node-optimist
+
 ## Contributing
 
 1. Fork it
