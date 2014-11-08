@@ -1,6 +1,8 @@
 how-to-write-a-node-cli-tools-with-commander
 ============================================
 
+[视频](https://raw.githubusercontent.com/nodeonly/how-to-write-a-node-cli-tools-with-commander/master/how-to-write-a-node-cli-tools-with-commander.mov)
+
 ## 什么是cli tools？
 
 CLI（command-line interface，命令行界面）是指可在用户提示符下键入可执行指令的界面。
