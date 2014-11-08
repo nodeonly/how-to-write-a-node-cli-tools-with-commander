@@ -419,6 +419,7 @@ cli参考
 ## 推荐
 
 - [mac-dev-setup](http://aaaaaashu.gitbooks.io/mac-dev-setup/content/index.html)
+- [How To Build A CLI Tool With Node.js And PhantomJS](http://www.smashingmagazine.com/2014/02/12/build-cli-tool-nodejs-phantomjs/)
 
 ## 版本历史
 
