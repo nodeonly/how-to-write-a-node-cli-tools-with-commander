@@ -1,0 +1,34 @@
+{
+  "name": "node-cli-demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm publish .",
+    "test": " node bin/badge.js -t js -n q "
+  },
+  "author": "",
+  "license": "ISC",
+  "preferGlobal": "true",
+  "bin": {
+    "badge": "bin/badge.js"
+  },
+  "dependencies": {
+    "commander": "^2.5.0",
+        "config": "^1.7.0",
+    "handlebars": "^2.0.0",
+    "request": "^2.47.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "gulp": "^3.8.10",
+    "gulp-istanbul": "^0.3.1",
+    "gulp-mocha": "^1.1.1",
+    "istanbul": "^0.3.2",
+    "mocha": "^2.0.1",
+    "sinon": "^1.11.1",
+    "supertest": "^0.14.0",
+    "supervisor": "^0.6.0",
+    "zombie": "^2.1.1"
+  }
+}
