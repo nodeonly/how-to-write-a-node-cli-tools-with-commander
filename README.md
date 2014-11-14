@@ -410,6 +410,38 @@ cli参考
 
 - https://github.com/substack/node-optimist
 
+
+## 推荐写法1
+
+https://github.com/montagejs/minit/blob/master/cli.js
+
+```
+var fs = require("fs");
+var path = require("path");
+
+var Command = require("commander").Command;
+
+var config = require("./package.json");
+var create = require("./lib/create");
+var serve = require("./lib/serve");
+
+var cli = new Command();
+//extras
+cli.minitHome = __dirname + "/";
+//
+cli.version(config.version);
+create.addCommandsTo(cli);
+var serveCommand = cli.command('serve')
+    .description('serve current directory with minit server.')
+    .action(function(env){
+        serve.serve(env);
+    });
+serve.addOptions(serveCommand);
+
+exports.command = cli;
+
+```
+
 ## Contributing
 
 1. Fork it
