@@ -454,6 +454,8 @@ exports.command = cli;
 
 - [mac-dev-setup](http://aaaaaashu.gitbooks.io/mac-dev-setup/content/index.html)
 - [How To Build A CLI Tool With Node.js And PhantomJS](http://www.smashingmagazine.com/2014/02/12/build-cli-tool-nodejs-phantomjs/)
+- [nash : Craft command-line masterpieces in Node.js](https://github.com/scottcorgan/nash)
+- [Execute A Unix Command With Node.js](http://www.dzone.com/snippets/execute-unix-command-nodejs)
 
 ## 版本历史
 
